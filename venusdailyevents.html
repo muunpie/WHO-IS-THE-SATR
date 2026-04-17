@@ -259,7 +259,7 @@
              
         .hero{
              height: 100vh;
-             background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/DSC_3033.jpg');
+             background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://i.ibb.co/20ZLCwnK/DSC-3033.jpg');
              background-size: cover;
              background-position: center;
              background-repeat: no-repeat;
@@ -284,6 +284,49 @@
     background: transparent !important;
     color: var(--color-gold) !important;
     box-shadow: 0 0 15px rgba(197, 160, 89, 0.4);
+} 
+.service-box:hover .service-icon img {
+    filter: drop-shadow(0 0 25px rgba(197, 160, 89, 1));
+    transform: scale(1.05);
+}   
+ /* THE 3D CARD */
+        .service-box{
+            background: rgba(10, 10, 10, 0.8);
+            border: 1px solid rgba(197, 160, 89, 0.3);
+            padding: 50px 30px;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: perspective(1000px);
+            transition: transform 0.1s ease-out; /* Smooth mouse follow */
+            cursor: pointer;
+            border-radius: 8px;
+            
+            /* THE GLOW EFFECT */
+            box-shadow: 0 0 15px rgba(197, 160, 89, 0.1); 
+        }
+
+        /* Intense Glow on Hover */
+        .service-box:hover {
+            box-shadow: 0 0 35px rgba(197, 160, 89, 0.4), inset 0 0 10px rgba(197, 160, 89, 0.2);
+            border-color: var(--color-gold);
+        }
+
+        /* 3D Depth Elements */
+        .service-icon {
+            height: 80px; /* Sets a fixed height for the logo area */
+             display: flex;
+            align-items: center; /* Centers vertically */
+            justify-content: center; /* Centers horizontally */
+            margin-bottom: 30px;
+}
+
+        .service-icon img {
+            max-height: 100%; /* Ensures logo fits inside the height */
+            max-width: 100%;  /* Ensures logo doesn't overflow width */
+            object-fit: contain;
+            /* THE GOLD GLOW EFFECT FOR LOGOS */
+            filter: drop-shadow(0 0 15px rgba(197, 160, 89, 0.6)); 
+            transition: 0.3s;
 }
     </style>
 </head>
@@ -303,7 +346,7 @@
         <!-- CENTER LOGO -->
         <a href="index.html" class="logo">
             <!-- Ensure your logo is in images/logo.png -->
-            <img src="images/lego.png" alt="Venus Ventures Logo" class="logo-img">
+            <img src="https://i.ibb.co/nskSzSDd/lego.png" alt="Venus Ventures Logo" class="logo-img">
         </a>
 
         <!-- RIGHT SIDE LINKS + CTA -->
@@ -339,7 +382,7 @@
         </div>
        
     </section>
- 
+    
     <!-- Services Details -->
     <section id="service-box" class="services-section section-padding">
         <div class="container">
@@ -350,6 +393,7 @@
 
             <div class="grid">
                 <!-- Service 1 -->
+                 
                  
                 <div class="service-box">
                     <div class="service-icon"><i class="fas fa-campground"></i></div>
@@ -418,76 +462,76 @@
                 
                 <div class="carousel-track" id="track">
                     <!-- Slide 1 -->
-                     <div class="carousel-track" id="track">
-                        <img src="images/w1.JPG" alt="Corporate Event">
+                    <div class="carousel-slide">
+                        <img src="https://i.ibb.co/3m6jrf0H/w1.jpg" alt="w1" border="0" alt="Corporate Event">
                        
                     </div>
                     <!-- Slide 2 -->
                     <div class="carousel-slide">
-                        <img src="images/JWN-9309.jpg" alt="Safari Tour">
+                        <img src="https://i.ibb.co/MkBW3n1V/JWN-9309.jpg" alt="JWN 9309" border="0" alt="Safari Tour">
                        
                     </div>
                     <!-- Slide 3 -->
                     <div class="carousel-slide">
-                        <img src="images/9.JPG" alt="Singer">
+                        <img src="https://i.ibb.co/N2LftKs2/9.jpg" alt="9" border="0" alt="Singer">
                       
                     </div>
                     <!-- Slide 4 -->
                     <div class="carousel-slide">
-                        <img src="images/DJI_0059.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/ZpxyFBZN/DJI-0059.jpg" alt="Wedding">
                         
                     </div>
                      <div class="carousel-slide">
-                        <img src="images/DSC_3033.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/20ZLCwnK/DSC-3033.jpg" alt="Wedding">
                         
                     </div>
                      <div class="carousel-slide">
-                        <img src="images/DSC_7816.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/PZ8wSmq4/DSC-7816.jpg" alt="Wedding">
                         
                      </div>
                      <div class="carousel-slide">
-                        <img src="images/JWN-9360.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/6cFy4CXv/JWN-9360.jpg" alt="Wedding">
                             
                          </div>
                      <div class="carousel-slide">
-                        <img src="images/1.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/0y5fH496/1.jpg" alt="Wedding">
                         
                          </div>
                     <div class="carousel-slide">
-                        <img src="images/2.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/NgGGjRK3/2.jpg" alt="Wedding">
                     
                          </div>
                     <div class="carousel-slide">
-                        <img src="images/3.png" alt="Wedding">
+                        <img src="https://i.ibb.co/xq9Y5P5r/3.jpg" alt="Wedding">
                        
                           </div>
                     <div class="carousel-slide">
-                        <img src="images/4.png" alt="Wedding">
+                        <img src="https://i.ibb.co/cK26dhtk/4.jpg" alt="Wedding">
                             </div>
                         
                     <div class="carousel-slide">
-                        <img src="images/JWN-9746.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/HLDpXm2J/JWN-9746.jpg" alt="Wedding">
                         
                           </div>
                         
                     <div class="carousel-slide">
-                        <img src="images/JWN-9757.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/Lz941vT6/JWN-9757.jpg" alt="Wedding">
                         
                           </div>
                         
                     <div class="carousel-slide">
-                        <img src="images/DSC_2991.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/HTJ9WgDg/DSC-2991.jpg" alt="Wedding">
                         
                           </div>
                     <div class="carousel-slide">
-                        <img src="images/8.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/WN4NkccD/8.jpg" alt="Wedding">
                         
                           </div>
                     <div class="carousel-slide">
-                        <img src="images/DSC_2995.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/xSMgnDLG/DSC-2995.jpg" alt="Wedding">
                           </div>
                     <div class="carousel-slide">
-                        <img src="images/JWN-9370.jpg" alt="Wedding">
+                        <img src="https://i.ibb.co/4ZY966vg/JWN-9370.jpg" alt="Wedding">
                         
                 </div>
             </div>
@@ -502,14 +546,64 @@
                 <p style="color: #aaa; margin-bottom: 30px;">Tell us about your requirements.</p>
             </div>
             
-           <form action="https://formsubmit.co/venusdailyevents@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email" required>
-    <textarea name="message" placeholder="Event Details"></textarea>
+        <form action="https://formsubmit.co/venusdailyevents@gmail.com" method="POST">
     
-    <input type="hidden" name="_next" value="https://yourusername.github.io/venus-ventures/index.html">
-    
-    <button type="submit" class="btn btn-gold">Request Booking</button>
+    <input type="text" name="_capcha" style="display:none">
+
+    <div class="contact-form">
+        
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label" for="f-name">Full Name *</label>
+                <input class="form-input" id="f-name" name="name" type="text" placeholder="Your full name" required/>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="f-email">Email Address *</label>
+                <input class="form-input" id="f-email" name="email" type="email" placeholder="your@email.com" required/>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label" for="f-phone">Phone Number</label>
+                <input class="form-input" id="f-phone" name="phone" type="tel" placeholder="+254 700 000 000"/>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="f-type">Event Type *</label>
+                <select class="form-select" id="f-type" name="event_type" required>
+                    <option value="">Select event type</option>
+                    <option>Wedding & Reception</option>
+                    <option>Corporate Gala</option>
+                    <option>Private Dinner</option>
+                    <option>Brand Activation</option>
+                    <option>Awards Ceremony</option>
+                    <option>Other</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label" for="f-date">Preferred Date</label>
+                <input class="form-input" id="f-date" name="date" type="date"/>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="f-guests">Guest Count</label>
+                <input class="form-input" id="f-guests" name="guests" type="number" placeholder="Approx. number" min="1"/>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group full">
+                <label class="form-label" for="f-msg">Your Vision *</label>
+                <textarea class="form-textarea" id="f-msg" name="message" placeholder="Describe your event vision..." rows="4" required></textarea>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-gold">Request Booking</button>
+
+        <input type="hidden" name="_next" value="https://your-vercel-site-link.vercel.app/thanks.html">
+    </div>
 </form>
         </div>
     </section>
